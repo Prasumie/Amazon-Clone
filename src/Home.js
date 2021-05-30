@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import prime from "./prime.jpg";
 import Product from "./Product";
+
 function Home() {
 return (
 <div className="home">
