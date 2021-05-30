@@ -7,6 +7,8 @@ const [{basket}] = useStateValue();
 return (
 <div className="checkout">
 <img className="checkout_ad" src="https://yt3.ggpht.com/hW8WcvwOgy69I5etqtcUhW8ReUwAa8Te_rAMDA9sKjQ6cAzDgNcwTctMLq6eDqk2TvUafLQpYJg=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj"/>
+<img className="checkout_ad" src="https://yt3.ggpht.com/L3YXqipHuhFBHUO6UqCpr49I4tQaUEuA1fPfdwOJct30EK9wuAnNViyHysvt5RRV4lAqdm4A=w1060-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj"/>
+
 {basket?.length === 0 ?(
 <div>
 <h2>Your Shopping Basket is empty</h2>
